@@ -28,7 +28,7 @@ export default function Home() {
               Welcome to PriceHub
             </h2>
             <p className="text-lg sm:text-xl text-slate-800 leading-relaxed">
-              HP's pricing and deal management platform. Search for deals, create quotes,
+              HP&apos;s pricing and deal management platform. Search for deals, create quotes,
               manage pricing authorizations, and handle EUV processes with AI-powered assistance.
               Get instant help navigating the platform and streamlining your sales workflows.
             </p>

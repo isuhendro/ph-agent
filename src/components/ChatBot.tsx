@@ -5,7 +5,7 @@ import { ChatKit, useChatKit } from '@openai/chatkit-react';
 export function ChatBot() {
   const { control } = useChatKit({
     api: {
-      async getClientSecret(existing) {
+      async getClientSecret() {
         const res = await fetch('/api/chatkit/session', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
